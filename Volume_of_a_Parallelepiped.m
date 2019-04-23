@@ -1,0 +1,12 @@
+x1 = input('What is the x direction of the first vector ');
+y1 = input('What is the y direction of the first vector ');
+z1 = input('What is the z direction of the first vector ');
+x2 = input('What is the x direction of the second vector ');
+y2 = input('What is the y direction of the second vector ');
+z2 = input('What is the z direction of the second vector ');
+x3 = input('What is the x direction of the third vector ');
+y3 = input('What is the y direction of the third vector ');
+z3 = input('What is the z direction of the third vector ');
+A = [x1 y1 z1; x2 y2 z2; x3 y3 z3];
+volume = abs(det(A));
+disp(volume);
